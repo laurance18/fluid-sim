@@ -12,7 +12,7 @@ public class FluidSim : MonoBehaviour
     private GameObject circle;
 
     float particleSize = 1f;
-    public float gravity;
+    float gravity = 9.81f;
 
     Vector2 velocity;
     Vector2 position;
